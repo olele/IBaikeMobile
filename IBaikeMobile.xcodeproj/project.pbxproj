@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* IBaikeMobileAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* IBaikeMobileAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		99BCA28113261403007C4C5F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BCA28013261403007C4C5F /* Default@2x.png */; };
+		99BCA29D132615AB007C4C5F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BCA29A132615AB007C4C5F /* Icon-72.png */; };
+		99BCA29E132615AB007C4C5F /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BCA29B132615AB007C4C5F /* Icon-Small-50.png */; };
+		99BCA2AA13261738007C4C5F /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 99BCA2A913261738007C4C5F /* iTunesArtwork */; };
+		99C536B713208C9D00E11C44 /* tb_category@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C536B413208C9D00E11C44 /* tb_category@2x.png */; };
+		99C536B813208C9D00E11C44 /* tb_recommended@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C536B513208C9D00E11C44 /* tb_recommended@2x.png */; };
+		99C536B913208C9D00E11C44 /* tb_saved@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C536B613208C9D00E11C44 /* tb_saved@2x.png */; };
+		99ECF401132C6F8800FB3FB1 /* libsqlite3_s.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 99ECF400132C6F8800FB3FB1 /* libsqlite3_s.dylib */; };
+		B4313E1412A8D9FE00877F92 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = B4313E1312A8D9FE00877F92 /* style.css */; };
+		B4500C6212ADE68E0027EBE9 /* ViewImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4500C6112ADE68E0027EBE9 /* ViewImage.xib */; };
+		B4500C6512ADFD480027EBE9 /* ViewImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4500C6412ADFD480027EBE9 /* ViewImageController.m */; };
+		B4500C8912AE00F30027EBE9 /* baikeall.html in Resources */ = {isa = PBXBuildFile; fileRef = B4500C8812AE00F30027EBE9 /* baikeall.html */; };
+		B453AC4412B5EEC400029FF9 /* FotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B453AC4312B5EEC400029FF9 /* FotoScrollView.m */; };
+		B49798E7128A4192005E813E /* DownloadAndParseWebPage.m in Sources */ = {isa = PBXBuildFile; fileRef = B49798C2128A4192005E813E /* DownloadAndParseWebPage.m */; };
+		B49798E9128A4192005E813E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49798C6128A4192005E813E /* MainViewController.m */; };
+		B49798EA128A4192005E813E /* MiscHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B49798C8128A4192005E813E /* MiscHelper.m */; };
+		B49798EB128A4192005E813E /* MsgBoxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B49798CA128A4192005E813E /* MsgBoxHelper.m */; };
+		B49798EC128A4192005E813E /* QuestionListController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49798CC128A4192005E813E /* QuestionListController.m */; };
+		B49798ED128A4192005E813E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B49798CE128A4192005E813E /* Reachability.m */; };
+		B49798EE128A4192005E813E /* RecommendedQuestionController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B49798D0128A4192005E813E /* RecommendedQuestionController.mm */; };
+		B49798EF128A4192005E813E /* ReportBug.m in Sources */ = {isa = PBXBuildFile; fileRef = B49798D2128A4192005E813E /* ReportBug.m */; };
+		B49798F0128A4192005E813E /* SavedResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49798D4128A4192005E813E /* SavedResultController.m */; };
+		B49798F1128A4192005E813E /* SearchCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49798D6128A4192005E813E /* SearchCategoryController.m */; };
+		B49798F2128A4192005E813E /* SearchHistoryController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B49798D8128A4192005E813E /* SearchHistoryController.mm */; };
+		B49798F3128A4192005E813E /* SQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B49798DA128A4192005E813E /* SQLiteHelper.m */; };
+		B49798F4128A4192005E813E /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B49798DC128A4192005E813E /* StringHelper.m */; };
+		B49798F5128A4192005E813E /* StringHelperExt.mm in Sources */ = {isa = PBXBuildFile; fileRef = B49798DD128A4192005E813E /* StringHelperExt.mm */; };
+		B49798F6128A4192005E813E /* UpgradeDB.m in Sources */ = {isa = PBXBuildFile; fileRef = B49798DF128A4192005E813E /* UpgradeDB.m */; };
+		B49798F7128A4192005E813E /* XmlSearchResultParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B49798E1128A4192005E813E /* XmlSearchResultParser.m */; };
+		B4979909128A419D005E813E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B49798F9128A419D005E813E /* Default.png */; };
+		B497990B128A419D005E813E /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B49798FB128A419D005E813E /* Icon-Small.png */; };
+		B497990C128A419D005E813E /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B49798FC128A419D005E813E /* Icon-Small@2x.png */; };
+		B497990D128A419D005E813E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B49798FD128A419D005E813E /* Icon.png */; };
+		B497990E128A419D005E813E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B49798FE128A419D005E813E /* Icon@2x.png */; };
+		B4979910128A419D005E813E /* nextpage.png in Resources */ = {isa = PBXBuildFile; fileRef = B4979900128A419D005E813E /* nextpage.png */; };
+		B4979911128A419D005E813E /* prevpage.png in Resources */ = {isa = PBXBuildFile; fileRef = B4979901128A419D005E813E /* prevpage.png */; };
+		B4979912128A419D005E813E /* tb_about.png in Resources */ = {isa = PBXBuildFile; fileRef = B4979902128A419D005E813E /* tb_about.png */; };
+		B4979913128A419D005E813E /* tb_category.png in Resources */ = {isa = PBXBuildFile; fileRef = B4979903128A419D005E813E /* tb_category.png */; };
+		B4979914128A419D005E813E /* tb_history.png in Resources */ = {isa = PBXBuildFile; fileRef = B4979904128A419D005E813E /* tb_history.png */; };
+		B4979915128A419D005E813E /* tb_recommended.png in Resources */ = {isa = PBXBuildFile; fileRef = B4979905128A419D005E813E /* tb_recommended.png */; };
+		B4979916128A419D005E813E /* tb_saved.png in Resources */ = {isa = PBXBuildFile; fileRef = B4979906128A419D005E813E /* tb_saved.png */; };
+		B4979917128A419D005E813E /* tb_searched.png in Resources */ = {isa = PBXBuildFile; fileRef = B4979907128A419D005E813E /* tb_searched.png */; };
+		B4979918128A419D005E813E /* titlebg.gif in Resources */ = {isa = PBXBuildFile; fileRef = B4979908128A419D005E813E /* titlebg.gif */; };
+		B497992A128A430A005E813E /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = B4979925128A430A005E813E /* TFHpple.m */; };
+		B497992B128A430A005E813E /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B4979927128A430A005E813E /* TFHppleElement.m */; };
+		B497992C128A430A005E813E /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B4979929128A430A005E813E /* XPathQuery.m */; };
+		B497992F128A4319005E813E /* date.dat in Resources */ = {isa = PBXBuildFile; fileRef = B497992D128A4319005E813E /* date.dat */; };
+		B4979974128A4514005E813E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4979973128A4514005E813E /* SystemConfiguration.framework */; };
+		B49799A7128A4524005E813E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49799A6128A4524005E813E /* MessageUI.framework */; };
+		B4979A53128A47BF005E813E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4979A52128A47BF005E813E /* libxml2.dylib */; };
+		B4979AD0128A49B1005E813E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4979ACF128A49B1005E813E /* MainView.xib */; };
+		B4979AD7128A49D1005E813E /* RecommendQuestion.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4979AD3128A49D1005E813E /* RecommendQuestion.xib */; };
+		B4979AD8128A49D1005E813E /* SavedResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4979AD4128A49D1005E813E /* SavedResult.xib */; };
+		B4979AD9128A49D1005E813E /* SearchCategory.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4979AD5128A49D1005E813E /* SearchCategory.xib */; };
+		B4979ADA128A49D1005E813E /* SearchHistory.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4979AD6128A49D1005E813E /* SearchHistory.xib */; };
+		B4979B31128A6D72005E813E /* AboutIBaikeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4979B26128A6D72005E813E /* AboutIBaikeController.m */; };
+		B4979B32128A6D72005E813E /* BaiduBaike.m in Sources */ = {isa = PBXBuildFile; fileRef = B4979B28128A6D72005E813E /* BaiduBaike.m */; };
+		B4979B33128A6D72005E813E /* BaiduBaikeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B4979B2A128A6D72005E813E /* BaiduBaikeCategory.m */; };
+		B4979B34128A6D72005E813E /* BaiduBaikeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B4979B2C128A6D72005E813E /* BaiduBaikeHelper.m */; };
+		B4979B35128A6D72005E813E /* BaiduBaikeRecommend.m in Sources */ = {isa = PBXBuildFile; fileRef = B4979B2E128A6D72005E813E /* BaiduBaikeRecommend.m */; };
+		B4979B36128A6D72005E813E /* IBaikeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4979B30128A6D72005E813E /* IBaikeController.m */; };
+		B4979B6A128A6E73005E813E /* IBaike.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4979B69128A6E73005E813E /* IBaike.xib */; };
+		B4979C0D128A77AF005E813E /* AboutIBaike.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4979C0C128A77AF005E813E /* AboutIBaike.xib */; };
+		B4979CD0128A89B9005E813E /* baike.html in Resources */ = {isa = PBXBuildFile; fileRef = B4979CCF128A89B9005E813E /* baike.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* IBaikeMobileAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBaikeMobileAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* IBaikeMobileAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBaikeMobileAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* IBaikeMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBaikeMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* IBaikeMobile_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBaikeMobile_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* IBaikeMobile-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IBaikeMobile-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		99BCA28013261403007C4C5F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		99BCA29A132615AB007C4C5F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		99BCA29B132615AB007C4C5F /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		99BCA2A913261738007C4C5F /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		99C536B413208C9D00E11C44 /* tb_category@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tb_category@2x.png"; sourceTree = "<group>"; };
+		99C536B513208C9D00E11C44 /* tb_recommended@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tb_recommended@2x.png"; sourceTree = "<group>"; };
+		99C536B613208C9D00E11C44 /* tb_saved@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tb_saved@2x.png"; sourceTree = "<group>"; };
+		99ECF400132C6F8800FB3FB1 /* libsqlite3_s.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsqlite3_s.dylib; sourceTree = "<group>"; };
+		B4313E1312A8D9FE00877F92 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		B4500C6112ADE68E0027EBE9 /* ViewImage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewImage.xib; sourceTree = "<group>"; };
+		B4500C6312ADFD480027EBE9 /* ViewImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewImageController.h; sourceTree = "<group>"; };
+		B4500C6412ADFD480027EBE9 /* ViewImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewImageController.m; sourceTree = "<group>"; };
+		B4500C8812AE00F30027EBE9 /* baikeall.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = baikeall.html; sourceTree = "<group>"; };
+		B453AC4212B5EEC400029FF9 /* FotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FotoScrollView.h; sourceTree = "<group>"; };
+		B453AC4312B5EEC400029FF9 /* FotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FotoScrollView.m; sourceTree = "<group>"; };
+		B49798C0128A4192005E813E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Classes/Constants.h; sourceTree = "<group>"; };
+		B49798C1128A4192005E813E /* DownloadAndParseWebPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadAndParseWebPage.h; path = Classes/DownloadAndParseWebPage.h; sourceTree = "<group>"; };
+		B49798C2128A4192005E813E /* DownloadAndParseWebPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadAndParseWebPage.m; path = Classes/DownloadAndParseWebPage.m; sourceTree = "<group>"; };
+		B49798C5128A4192005E813E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B49798C6128A4192005E813E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B49798C7128A4192005E813E /* MiscHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiscHelper.h; path = Classes/MiscHelper.h; sourceTree = "<group>"; };
+		B49798C8128A4192005E813E /* MiscHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MiscHelper.m; path = Classes/MiscHelper.m; sourceTree = "<group>"; };
+		B49798C9128A4192005E813E /* MsgBoxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MsgBoxHelper.h; path = Classes/MsgBoxHelper.h; sourceTree = "<group>"; };
+		B49798CA128A4192005E813E /* MsgBoxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MsgBoxHelper.m; path = Classes/MsgBoxHelper.m; sourceTree = "<group>"; };
+		B49798CB128A4192005E813E /* QuestionListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionListController.h; sourceTree = "<group>"; };
+		B49798CC128A4192005E813E /* QuestionListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionListController.m; sourceTree = "<group>"; };
+		B49798CD128A4192005E813E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Classes/Reachability.h; sourceTree = "<group>"; };
+		B49798CE128A4192005E813E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Classes/Reachability.m; sourceTree = "<group>"; };
+		B49798CF128A4192005E813E /* RecommendedQuestionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendedQuestionController.h; sourceTree = "<group>"; };
+		B49798D0128A4192005E813E /* RecommendedQuestionController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RecommendedQuestionController.mm; sourceTree = "<group>"; };
+		B49798D1128A4192005E813E /* ReportBug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReportBug.h; path = Classes/ReportBug.h; sourceTree = "<group>"; };
+		B49798D2128A4192005E813E /* ReportBug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReportBug.m; path = Classes/ReportBug.m; sourceTree = "<group>"; };
+		B49798D3128A4192005E813E /* SavedResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedResultController.h; sourceTree = "<group>"; };
+		B49798D4128A4192005E813E /* SavedResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedResultController.m; sourceTree = "<group>"; };
+		B49798D5128A4192005E813E /* SearchCategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCategoryController.h; sourceTree = "<group>"; };
+		B49798D6128A4192005E813E /* SearchCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCategoryController.m; sourceTree = "<group>"; };
+		B49798D7128A4192005E813E /* SearchHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchHistoryController.h; sourceTree = "<group>"; };
+		B49798D8128A4192005E813E /* SearchHistoryController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SearchHistoryController.mm; sourceTree = "<group>"; };
+		B49798D9128A4192005E813E /* SQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLiteHelper.h; path = Classes/SQLiteHelper.h; sourceTree = "<group>"; };
+		B49798DA128A4192005E813E /* SQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQLiteHelper.m; path = Classes/SQLiteHelper.m; sourceTree = "<group>"; };
+		B49798DB128A4192005E813E /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringHelper.h; path = Classes/StringHelper.h; sourceTree = "<group>"; };
+		B49798DC128A4192005E813E /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringHelper.m; path = Classes/StringHelper.m; sourceTree = "<group>"; };
+		B49798DD128A4192005E813E /* StringHelperExt.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = StringHelperExt.mm; path = Classes/StringHelperExt.mm; sourceTree = "<group>"; };
+		B49798DE128A4192005E813E /* UpgradeDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpgradeDB.h; path = Classes/UpgradeDB.h; sourceTree = "<group>"; };
+		B49798DF128A4192005E813E /* UpgradeDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpgradeDB.m; path = Classes/UpgradeDB.m; sourceTree = "<group>"; };
+		B49798E0128A4192005E813E /* XmlSearchResultParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XmlSearchResultParser.h; path = Classes/XmlSearchResultParser.h; sourceTree = "<group>"; };
+		B49798E1128A4192005E813E /* XmlSearchResultParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XmlSearchResultParser.m; path = Classes/XmlSearchResultParser.m; sourceTree = "<group>"; };
+		B49798F9128A419D005E813E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B49798FB128A419D005E813E /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		B49798FC128A419D005E813E /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		B49798FD128A419D005E813E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B49798FE128A419D005E813E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		B4979900128A419D005E813E /* nextpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextpage.png; sourceTree = "<group>"; };
+		B4979901128A419D005E813E /* prevpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prevpage.png; sourceTree = "<group>"; };
+		B4979902128A419D005E813E /* tb_about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_about.png; sourceTree = "<group>"; };
+		B4979903128A419D005E813E /* tb_category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_category.png; sourceTree = "<group>"; };
+		B4979904128A419D005E813E /* tb_history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_history.png; sourceTree = "<group>"; };
+		B4979905128A419D005E813E /* tb_recommended.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_recommended.png; sourceTree = "<group>"; };
+		B4979906128A419D005E813E /* tb_saved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_saved.png; sourceTree = "<group>"; };
+		B4979907128A419D005E813E /* tb_searched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_searched.png; sourceTree = "<group>"; };
+		B4979908128A419D005E813E /* titlebg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = titlebg.gif; sourceTree = "<group>"; };
+		B4979924128A430A005E813E /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		B4979925128A430A005E813E /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		B4979926128A430A005E813E /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		B4979927128A430A005E813E /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		B4979928128A430A005E813E /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		B4979929128A430A005E813E /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		B497992D128A4319005E813E /* date.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = date.dat; sourceTree = "<group>"; };
+		B4979973128A4514005E813E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B49799A6128A4524005E813E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B4979A52128A47BF005E813E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		B4979ACF128A49B1005E813E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		B4979AD3128A49D1005E813E /* RecommendQuestion.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendQuestion.xib; sourceTree = "<group>"; };
+		B4979AD4128A49D1005E813E /* SavedResult.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavedResult.xib; sourceTree = "<group>"; };
+		B4979AD5128A49D1005E813E /* SearchCategory.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCategory.xib; sourceTree = "<group>"; };
+		B4979AD6128A49D1005E813E /* SearchHistory.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchHistory.xib; sourceTree = "<group>"; };
+		B4979B25128A6D72005E813E /* AboutIBaikeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutIBaikeController.h; sourceTree = "<group>"; };
+		B4979B26128A6D72005E813E /* AboutIBaikeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutIBaikeController.m; sourceTree = "<group>"; };
+		B4979B27128A6D72005E813E /* BaiduBaike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaiduBaike.h; path = Classes/BaiduBaike.h; sourceTree = "<group>"; };
+		B4979B28128A6D72005E813E /* BaiduBaike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaiduBaike.m; path = Classes/BaiduBaike.m; sourceTree = "<group>"; };
+		B4979B29128A6D72005E813E /* BaiduBaikeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaiduBaikeCategory.h; path = Classes/BaiduBaikeCategory.h; sourceTree = "<group>"; };
+		B4979B2A128A6D72005E813E /* BaiduBaikeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaiduBaikeCategory.m; path = Classes/BaiduBaikeCategory.m; sourceTree = "<group>"; };
+		B4979B2B128A6D72005E813E /* BaiduBaikeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaiduBaikeHelper.h; path = Classes/BaiduBaikeHelper.h; sourceTree = "<group>"; };
+		B4979B2C128A6D72005E813E /* BaiduBaikeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaiduBaikeHelper.m; path = Classes/BaiduBaikeHelper.m; sourceTree = "<group>"; };
+		B4979B2D128A6D72005E813E /* BaiduBaikeRecommend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaiduBaikeRecommend.h; path = Classes/BaiduBaikeRecommend.h; sourceTree = "<group>"; };
+		B4979B2E128A6D72005E813E /* BaiduBaikeRecommend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaiduBaikeRecommend.m; path = Classes/BaiduBaikeRecommend.m; sourceTree = "<group>"; };
+		B4979B2F128A6D72005E813E /* IBaikeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBaikeController.h; sourceTree = "<group>"; };
+		B4979B30128A6D72005E813E /* IBaikeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBaikeController.m; sourceTree = "<group>"; };
+		B4979B69128A6E73005E813E /* IBaike.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IBaike.xib; sourceTree = "<group>"; };
+		B4979C0C128A77AF005E813E /* AboutIBaike.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutIBaike.xib; sourceTree = "<group>"; };
+		B4979CCF128A89B9005E813E /* baike.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = baike.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				B4979974128A4514005E813E /* SystemConfiguration.framework in Frameworks */,
+				B49799A7128A4524005E813E /* MessageUI.framework in Frameworks */,
+				B4979A53128A47BF005E813E /* libxml2.dylib in Frameworks */,
+				99ECF401132C6F8800FB3FB1 /* libsqlite3_s.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B453AC4212B5EEC400029FF9 /* FotoScrollView.h */,
+				B453AC4312B5EEC400029FF9 /* FotoScrollView.m */,
+				B4979B25128A6D72005E813E /* AboutIBaikeController.h */,
+				B4979B26128A6D72005E813E /* AboutIBaikeController.m */,
+				B4979B2F128A6D72005E813E /* IBaikeController.h */,
+				B4979B30128A6D72005E813E /* IBaikeController.m */,
+				B49798C5128A4192005E813E /* MainViewController.h */,
+				B49798C6128A4192005E813E /* MainViewController.m */,
+				B49798CB128A4192005E813E /* QuestionListController.h */,
+				B49798CC128A4192005E813E /* QuestionListController.m */,
+				B49798CF128A4192005E813E /* RecommendedQuestionController.h */,
+				B49798D0128A4192005E813E /* RecommendedQuestionController.mm */,
+				B49798D3128A4192005E813E /* SavedResultController.h */,
+				B49798D4128A4192005E813E /* SavedResultController.m */,
+				B49798D5128A4192005E813E /* SearchCategoryController.h */,
+				B49798D6128A4192005E813E /* SearchCategoryController.m */,
+				B49798D7128A4192005E813E /* SearchHistoryController.h */,
+				B49798D8128A4192005E813E /* SearchHistoryController.mm */,
+				1D3623240D0F684500981E51 /* IBaikeMobileAppDelegate.h */,
+				1D3623250D0F684500981E51 /* IBaikeMobileAppDelegate.m */,
+				B4500C6312ADFD480027EBE9 /* ViewImageController.h */,
+				B4500C6412ADFD480027EBE9 /* ViewImageController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* IBaikeMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B4979B0D128A4D62005E813E /* Model */,
+				B4979923128A430A005E813E /* Hpple */,
+				B4979919128A41E6005E813E /* Util */,
+				B49798F8128A419D005E813E /* images */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B4500C8812AE00F30027EBE9 /* baikeall.html */,
+				B4979CCF128A89B9005E813E /* baike.html */,
+				B497992D128A4319005E813E /* date.dat */,
+				32CA4F630368D1EE00C91783 /* IBaikeMobile_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				B4313E1312A8D9FE00877F92 /* style.css */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4979C0C128A77AF005E813E /* AboutIBaike.xib */,
+				B4979B69128A6E73005E813E /* IBaike.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				B4979ACF128A49B1005E813E /* MainView.xib */,
+				B4979AD3128A49D1005E813E /* RecommendQuestion.xib */,
+				B4979AD4128A49D1005E813E /* SavedResult.xib */,
+				B4979AD5128A49D1005E813E /* SearchCategory.xib */,
+				B4979AD6128A49D1005E813E /* SearchHistory.xib */,
+				8D1107310486CEB800E47090 /* IBaikeMobile-Info.plist */,
+				B4500C6112ADE68E0027EBE9 /* ViewImage.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99ECF400132C6F8800FB3FB1 /* libsqlite3_s.dylib */,
+				B4979A52128A47BF005E813E /* libxml2.dylib */,
+				B4979973128A4514005E813E /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				B49799A6128A4524005E813E /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B49798F8128A419D005E813E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				99BCA2A913261738007C4C5F /* iTunesArtwork */,
+				99BCA29A132615AB007C4C5F /* Icon-72.png */,
+				99BCA29B132615AB007C4C5F /* Icon-Small-50.png */,
+				99BCA28013261403007C4C5F /* Default@2x.png */,
+				99C536B413208C9D00E11C44 /* tb_category@2x.png */,
+				99C536B513208C9D00E11C44 /* tb_recommended@2x.png */,
+				99C536B613208C9D00E11C44 /* tb_saved@2x.png */,
+				B49798F9128A419D005E813E /* Default.png */,
+				B49798FB128A419D005E813E /* Icon-Small.png */,
+				B49798FC128A419D005E813E /* Icon-Small@2x.png */,
+				B49798FD128A419D005E813E /* Icon.png */,
+				B49798FE128A419D005E813E /* Icon@2x.png */,
+				B4979900128A419D005E813E /* nextpage.png */,
+				B4979901128A419D005E813E /* prevpage.png */,
+				B4979902128A419D005E813E /* tb_about.png */,
+				B4979903128A419D005E813E /* tb_category.png */,
+				B4979904128A419D005E813E /* tb_history.png */,
+				B4979905128A419D005E813E /* tb_recommended.png */,
+				B4979906128A419D005E813E /* tb_saved.png */,
+				B4979907128A419D005E813E /* tb_searched.png */,
+				B4979908128A419D005E813E /* titlebg.gif */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B4979919128A41E6005E813E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B49798C0128A4192005E813E /* Constants.h */,
+				B49798C7128A4192005E813E /* MiscHelper.h */,
+				B49798C8128A4192005E813E /* MiscHelper.m */,
+				B49798C9128A4192005E813E /* MsgBoxHelper.h */,
+				B49798CA128A4192005E813E /* MsgBoxHelper.m */,
+				B49798CD128A4192005E813E /* Reachability.h */,
+				B49798CE128A4192005E813E /* Reachability.m */,
+				B49798D1128A4192005E813E /* ReportBug.h */,
+				B49798D2128A4192005E813E /* ReportBug.m */,
+				B49798D9128A4192005E813E /* SQLiteHelper.h */,
+				B49798DA128A4192005E813E /* SQLiteHelper.m */,
+				B49798DB128A4192005E813E /* StringHelper.h */,
+				B49798DC128A4192005E813E /* StringHelper.m */,
+				B49798DD128A4192005E813E /* StringHelperExt.mm */,
+				B4979B2B128A6D72005E813E /* BaiduBaikeHelper.h */,
+				B4979B2C128A6D72005E813E /* BaiduBaikeHelper.m */,
+				B49798DE128A4192005E813E /* UpgradeDB.h */,
+				B49798DF128A4192005E813E /* UpgradeDB.m */,
+				B49798E0128A4192005E813E /* XmlSearchResultParser.h */,
+				B49798E1128A4192005E813E /* XmlSearchResultParser.m */,
+				B49798C1128A4192005E813E /* DownloadAndParseWebPage.h */,
+				B49798C2128A4192005E813E /* DownloadAndParseWebPage.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		B4979923128A430A005E813E /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				B4979924128A430A005E813E /* TFHpple.h */,
+				B4979925128A430A005E813E /* TFHpple.m */,
+				B4979926128A430A005E813E /* TFHppleElement.h */,
+				B4979927128A430A005E813E /* TFHppleElement.m */,
+				B4979928128A430A005E813E /* XPathQuery.h */,
+				B4979929128A430A005E813E /* XPathQuery.m */,
+			);
+			path = Hpple;
+			sourceTree = "<group>";
+		};
+		B4979B0D128A4D62005E813E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4979B27128A6D72005E813E /* BaiduBaike.h */,
+				B4979B28128A6D72005E813E /* BaiduBaike.m */,
+				B4979B29128A6D72005E813E /* BaiduBaikeCategory.h */,
+				B4979B2A128A6D72005E813E /* BaiduBaikeCategory.m */,
+				B4979B2D128A6D72005E813E /* BaiduBaikeRecommend.h */,
+				B4979B2E128A6D72005E813E /* BaiduBaikeRecommend.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* IBaikeMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IBaikeMobile" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBaikeMobile;
+			productName = IBaikeMobile;
+			productReference = 1D6058910D05DD3D006BFB54 /* IBaikeMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = iHomeWiki;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IBaikeMobile" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* IBaikeMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				B4979909128A419D005E813E /* Default.png in Resources */,
+				B497990B128A419D005E813E /* Icon-Small.png in Resources */,
+				B497990C128A419D005E813E /* Icon-Small@2x.png in Resources */,
+				B497990D128A419D005E813E /* Icon.png in Resources */,
+				B497990E128A419D005E813E /* Icon@2x.png in Resources */,
+				B4979910128A419D005E813E /* nextpage.png in Resources */,
+				B4979911128A419D005E813E /* prevpage.png in Resources */,
+				B4979912128A419D005E813E /* tb_about.png in Resources */,
+				B4979913128A419D005E813E /* tb_category.png in Resources */,
+				B4979914128A419D005E813E /* tb_history.png in Resources */,
+				B4979915128A419D005E813E /* tb_recommended.png in Resources */,
+				B4979916128A419D005E813E /* tb_saved.png in Resources */,
+				B4979917128A419D005E813E /* tb_searched.png in Resources */,
+				B4979918128A419D005E813E /* titlebg.gif in Resources */,
+				B497992F128A4319005E813E /* date.dat in Resources */,
+				B4979AD0128A49B1005E813E /* MainView.xib in Resources */,
+				B4979AD7128A49D1005E813E /* RecommendQuestion.xib in Resources */,
+				B4979AD8128A49D1005E813E /* SavedResult.xib in Resources */,
+				B4979AD9128A49D1005E813E /* SearchCategory.xib in Resources */,
+				B4979ADA128A49D1005E813E /* SearchHistory.xib in Resources */,
+				B4979B6A128A6E73005E813E /* IBaike.xib in Resources */,
+				B4979C0D128A77AF005E813E /* AboutIBaike.xib in Resources */,
+				B4979CD0128A89B9005E813E /* baike.html in Resources */,
+				B4313E1412A8D9FE00877F92 /* style.css in Resources */,
+				B4500C6212ADE68E0027EBE9 /* ViewImage.xib in Resources */,
+				B4500C8912AE00F30027EBE9 /* baikeall.html in Resources */,
+				99C536B713208C9D00E11C44 /* tb_category@2x.png in Resources */,
+				99C536B813208C9D00E11C44 /* tb_recommended@2x.png in Resources */,
+				99C536B913208C9D00E11C44 /* tb_saved@2x.png in Resources */,
+				99BCA28113261403007C4C5F /* Default@2x.png in Resources */,
+				99BCA29D132615AB007C4C5F /* Icon-72.png in Resources */,
+				99BCA29E132615AB007C4C5F /* Icon-Small-50.png in Resources */,
+				99BCA2AA13261738007C4C5F /* iTunesArtwork in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* IBaikeMobileAppDelegate.m in Sources */,
+				B49798E7128A4192005E813E /* DownloadAndParseWebPage.m in Sources */,
+				B49798E9128A4192005E813E /* MainViewController.m in Sources */,
+				B49798EA128A4192005E813E /* MiscHelper.m in Sources */,
+				B49798EB128A4192005E813E /* MsgBoxHelper.m in Sources */,
+				B49798EC128A4192005E813E /* QuestionListController.m in Sources */,
+				B49798ED128A4192005E813E /* Reachability.m in Sources */,
+				B49798EE128A4192005E813E /* RecommendedQuestionController.mm in Sources */,
+				B49798EF128A4192005E813E /* ReportBug.m in Sources */,
+				B49798F0128A4192005E813E /* SavedResultController.m in Sources */,
+				B49798F1128A4192005E813E /* SearchCategoryController.m in Sources */,
+				B49798F2128A4192005E813E /* SearchHistoryController.mm in Sources */,
+				B49798F3128A4192005E813E /* SQLiteHelper.m in Sources */,
+				B49798F4128A4192005E813E /* StringHelper.m in Sources */,
+				B49798F5128A4192005E813E /* StringHelperExt.mm in Sources */,
+				B49798F6128A4192005E813E /* UpgradeDB.m in Sources */,
+				B49798F7128A4192005E813E /* XmlSearchResultParser.m in Sources */,
+				B497992A128A430A005E813E /* TFHpple.m in Sources */,
+				B497992B128A430A005E813E /* TFHppleElement.m in Sources */,
+				B497992C128A430A005E813E /* XPathQuery.m in Sources */,
+				B4979B31128A6D72005E813E /* AboutIBaikeController.m in Sources */,
+				B4979B32128A6D72005E813E /* BaiduBaike.m in Sources */,
+				B4979B33128A6D72005E813E /* BaiduBaikeCategory.m in Sources */,
+				B4979B34128A6D72005E813E /* BaiduBaikeHelper.m in Sources */,
+				B4979B35128A6D72005E813E /* BaiduBaikeRecommend.m in Sources */,
+				B4979B36128A6D72005E813E /* IBaikeController.m in Sources */,
+				B4500C6512ADFD480027EBE9 /* ViewImageController.m in Sources */,
+				B453AC4412B5EEC400029FF9 /* FotoScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IBaikeMobile_Prefix.pch;
+				INFOPLIST_FILE = "IBaikeMobile-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = IBaikeMobile;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IBaikeMobile_Prefix.pch;
+				INFOPLIST_FILE = "IBaikeMobile-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = IBaikeMobile;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4B5F53012BC5203007F74C0 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Bill Wang";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "51282835-42D4-474C-985B-CA1CBBFE20BC";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos4.3;
+			};
+			name = Distribution;
+		};
+		B4B5F53112BC5203007F74C0 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IBaikeMobile_Prefix.pch;
+				INFOPLIST_FILE = "IBaikeMobile-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = IBaikeMobile;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bill Wang (928XR4AW82)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B861474B-30DB-4394-9DE4-227770760BEE";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos4.3;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bill Wang (928XR4AW82)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "50C8B5AE-E78C-422E-97A6-658CC205E033";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos4.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IBaikeMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				B4B5F53112BC5203007F74C0 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IBaikeMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				B4B5F53012BC5203007F74C0 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
