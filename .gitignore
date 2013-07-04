@@ -1,1 +1,10 @@
 .DS_Store
+build
+*xcodeproj/*mode*
+*xcodeproj/*pbxuser
+*xcodeproj/*per*
+*xcodeproj/project.xcworkspace
+*xcodeproj/xcuserdata
+*.pbxuser
+*.mode1v3
+*.xcuserstate
